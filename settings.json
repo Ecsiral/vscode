@@ -1,0 +1,113 @@
+{
+    "editor.fontFamily": "'monofur for Powerline', 'Fira Code'",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "all",
+    "editor.tabCompletion": "on",
+    "debug.console.fontSize": 16,
+    "markdown.preview.fontSize": 16,
+    "markdown.preview.lineHeight": 1.25,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.2,
+    "sync.gist": "5a0a70a75ca052abe043895067d316be",
+    "sync.autoUpload": false,
+    "sync.autoDownload": true,
+    "search.showLineNumbers": true,
+    "search.maintainFileSearchCache": true,
+    "explorer.confirmDelete": false,
+    "window.title": "${dirty}${separator}${rootName}${separator}${activeEditorMedium}",
+    "window.restoreWindows": "all",
+    "sync.forceUpload": true,
+    "workbench.editor.enablePreview": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "search.useGlobalIgnoreFiles": true,
+    "search.location": "panel",
+    "window.zoomLevel": 0,
+    "editor.largeFileOptimizations": false,
+    "editor.showFoldingControls": "always",
+    "editor.dragAndDrop": false,
+    "explorer.confirmDragAndDrop": false,
+    "markdown.preview.fontFamily": "'monofur for Powerline'",
+    "terminal.integrated.copyOnSelection": true,
+    "editor.suggestSelection": "first",
+    "python.jediEnabled": false,
+    "editor.renderControlCharacters": true,
+    "terminal.integrated.fontFamily": "\"Anonymous Pro\"",
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.scale": 2,
+    "python.analysis.cachingLevel": "System",
+    "python.linting.lintOnSave": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pylintUseMinimalCheckers": false,
+    "python.linting.enabled": false,
+    "python.linting.flake8Path": "/home/xli/.pyenv/shims/flake8",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.lineHeight": 20,
+    "debug.console.lineHeight": 20,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000",
+        "editor.foreground": "#ffffff",
+        "editorLineNumber.background": "#000000",
+        "editorLineNumber.foreground": "#888888",
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "source.python",
+                "settings": {
+                    "foreground": "#ffffff",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "fontStyle": "bold",
+                }
+            },
+            {
+                "scope": "meta.function-call.arguments.python",
+                "settings": {
+                    "foreground": "#ffffff",
+                }
+            },
+            {
+                "scope": "variable.parameter.function.language.special.cls.python",
+                "settings": {
+                    "fontStyle": "bold italic",
+                }
+            },
+            {
+                "scope": "variable.language.special.cls.python",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "support.type.python",
+                "settings": {
+                    "fontStyle": "italic",
+                },
+            },
+            {
+                "scope": "punctuation.definition.decorator.python",
+                "settings": {
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "punctuation",
+                "settings": {
+                    "foreground": "#89ddffff",
+                }
+            },
+            {
+                "scope": "punctuation.definition.inheritance.begin.python"
+            },
+        ],
+    },
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+}
