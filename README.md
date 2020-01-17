@@ -1,1 +1,1 @@
-# vscode_python_colors
+# vscode
