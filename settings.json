@@ -64,6 +64,7 @@
                 }
             },
 
+
             // keyword starts
             {
                 "scope": "keyword.control.flow.python",
@@ -108,6 +109,7 @@
                 }
             },
             //  keyward ends
+
 
             // punctuation starts
             {
@@ -182,6 +184,7 @@
             },
             // punctuation ends
 
+
             // meta starts
             {
                 "scope": "meta.class.python",
@@ -220,6 +223,7 @@
             },
             // meta ends
 
+
             // entity starts
             {
                 "scope": "entity.name.type.class.python",
@@ -236,6 +240,7 @@
                 }
             },
             // entity ends
+
 
             {
                 "scope": "storage.type.class.python",
@@ -259,6 +264,15 @@
                 }
             },
             {
+                "scope": "storage.type.string.python",
+                "settings": {
+                    "foreground": "#c792eacc",
+                    "fontStyle": "",
+                },
+            },
+
+
+            {
                 "scope": "support.type.python",
                 "settings": {
                     "foreground": "#ffcb6bcc",
@@ -266,12 +280,14 @@
                 }
             },
             {
-                "scope": "storage.type.string.python",
+                "scope": "support.variable.magic.python",
                 "settings": {
-                    "foreground": "#c792eacc",
-                    "fontStyle": "",
-                },
+                    "foreground": "#f07178cc",
+                    "fontStyle": "bold italic"
+                }
             },
+
+
             {
                 "scope": "variable.parameter.function.language.special.cls.python",
                 "settings": {
@@ -307,13 +323,8 @@
                     "fontStyle": "",
                 }
             },
-            {
-                "scope": "support.variable.magic.python",
-                "settings": {
-                    "foreground": "#f07178cc",
-                    "fontStyle": "bold italic"
-                }
-            },
+
+
             {
                 "scope": "constant.language.python",
                 "settings": {
@@ -322,24 +333,28 @@
                 }
             },
             {
+                "scope": "constant.character.format.placeholder.other.python",
+                "settings": {
+                    "foreground": "#f07178cc",
+                    "fontStyle": "bold italic"
+                }
+            },
+
+
+            {
                 "scope": "comment.line.number-sign.python",
                 "settings": {
                     "foreground": "#ffffff66",
                     "fontStyle": "",
                 }
             },
+
+
             {
                 "scope": "string.quoted.docstring.multi.python",
                 "settings": {
                     "foreground": "#ffffff66",
                     "fontStyle": "",
-                }
-            },
-            {
-                "scope": "constant.character.format.placeholder.other.python",
-                "settings": {
-                    "foreground": "#f07178cc",
-                    "fontStyle": "bold italic"
                 }
             },
         ],
