@@ -70,6 +70,7 @@
                 "scope": "keyword.control.flow.python",
                 "settings": {
                     "foreground": "#c792eacc",
+                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -77,6 +78,7 @@
                 "scope": "keyword.control.import.python",
                 "settings": {
                     "foreground": "#c792eacc",
+                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -98,6 +100,7 @@
                 "scope": "keyword.operator.logical.python",
                 "settings": {
                     "foreground": "#c792eacc",
+                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -105,6 +108,7 @@
                 "scope": "keyword.codetag.notation.python",
                 "settings": {
                     "foreground": "#c792eacc",
+                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -190,6 +194,7 @@
                 "scope": "meta.class.python",
                 "settings": {
                     "foreground": "#c792eacc",
+                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -203,14 +208,16 @@
             {
                 "scope": "meta.function-call.python",
                 "settings": {
-                    "foreground": "#82aaff",
+                    "foreground": "#82aaffcc",
+                    // "foreground": "#c792eacc",
                     "fontStyle": "",
                 }
             },
             {
                 "scope": "meta.function-call.generic.python",
                 "settings": {
-                    "foreground": "#82aaff",
+                    "foreground": "#82aaffcc",
+                    // "foreground": "#c792eacc",
                     "fontStyle": "",
                 }
             },
@@ -239,6 +246,14 @@
                     "fontStyle": "",
                 }
             },
+            {
+                "scope": "entity.name.function.python",
+                "settings": {
+                    "foreground": "#82aaffcc",
+                    // "foreground": "#c792eacc",
+                    "fontStyle": "",
+                },
+            }
             // entity ends
 
 
@@ -246,6 +261,7 @@
                 "scope": "storage.type.class.python",
                 "settings": {
                     "foreground": "#c792eacc",
+                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -253,6 +269,7 @@
                 "scope": "storage.type.function.python",
                 "settings": {
                     "foreground": "#c792eacc",
+                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -260,6 +277,7 @@
                 "scope": "storage.type.function.lambda.python",
                 "settings": {
                     "foreground": "#c792eacc",
+                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -267,6 +285,7 @@
                 "scope": "storage.type.string.python",
                 "settings": {
                     "foreground": "#c792eacc",
+                    // "foreground": "#82aaffcc",
                     "fontStyle": "",
                 },
             },
@@ -336,6 +355,7 @@
                 "scope": "constant.language.python",
                 "settings": {
                     "foreground": "#c792eacc",
+                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -380,6 +400,13 @@
             },
             {
                 "scope": "string.quoted.single.python",
+                "settings": {
+                    "foreground": "#c3e88dcc",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "string.regexp.quoted.single.python",
                 "settings": {
                     "foreground": "#c3e88dcc",
                     "fontStyle": "",
