@@ -235,6 +235,13 @@
                     "fontStyle": "",
                 }
             },
+            {
+                "scope": "meta.member.access.python",
+                "settings": {
+                    "foreground": "#ffffffcc",
+                    "fontStyle": "",
+                }
+            },
             // meta ends
 
 
@@ -260,7 +267,7 @@
                     // "foreground": "#c792eacc",
                     "fontStyle": "",
                 },
-            }
+            },
             // entity ends
 
 
