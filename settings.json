@@ -346,6 +346,20 @@
                     "fontStyle": "bold italic"
                 }
             },
+            {
+                "scope": "constant.numeric.dec.python",
+                "settings": {
+                    "foreground": "#f78c6ccc",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "constant.numeric.float.python",
+                "settings": {
+                    "foreground": "#f78c6ccc",
+                    "fontStyle": ""
+                }
+            },
 
 
             {
@@ -361,6 +375,13 @@
                 "scope": "string.quoted.docstring.multi.python",
                 "settings": {
                     "foreground": "#ffffff66",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "string.quoted.single.python",
+                "settings": {
+                    "foreground": "#c3e88dcc",
                     "fontStyle": "",
                 }
             },
