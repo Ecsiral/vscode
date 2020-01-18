@@ -47,10 +47,10 @@
     "editor.minimap.enabled": false,
     "workbench.iconTheme": "vscode-icons",
     "workbench.colorCustomizations": {
-        "editor.background": "#000000",
+        "editor.background": "#00000033",
         "editor.foreground": "#ffffffcc",
         "editor.lineHighlightBackground": "#ffffff33",
-        "editorLineNumber.background": "#000000",
+        "editorLineNumber.background": "#00000033",
         "editorLineNumber.foreground": "#ffffff33",
         "editorLineNumber.activeForeground": "#ffffff66",
     },
