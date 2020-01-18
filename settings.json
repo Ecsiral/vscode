@@ -323,6 +323,13 @@
                     "fontStyle": "",
                 }
             },
+            {
+                "scope": "variable.parameter.function-call.python",
+                "settings": {
+                    "foreground": "#ffffffcc",
+                    "fontStyle": "",
+                }
+            },
 
 
             {
