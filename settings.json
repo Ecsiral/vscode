@@ -67,6 +67,13 @@
 
             // keyword starts
             {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#89ddffcc",
+                    "fontStyle": "",
+                }
+            },
+            {
                 "scope": "keyword.control.flow.python",
                 "settings": {
                     "foreground": "#c792eacc",
