@@ -1,6 +1,6 @@
 {
-    "editor.fontFamily": "'monofur for Powerline','Anonymous Pro'",
-    "editor.fontSize": 20,
+    "editor.fontFamily": "'monofur for Powerline'",
+    "editor.fontSize": 16,
     "editor.fontLigatures": true,
     "files.trimTrailingWhitespace": true,
     "editor.renderWhitespace": "all",
@@ -35,7 +35,7 @@
     "editor.renderControlCharacters": true,
     "terminal.integrated.fontFamily": "\"Anonymous Pro\"",
     "editor.minimap.showSlider": "always",
-    "editor.minimap.scale": 2,
+    "editor.minimap.scale": 3,
     "python.analysis.cachingLevel": "System",
     "python.linting.lintOnSave": false,
     "python.linting.pylintEnabled": false,
@@ -44,7 +44,6 @@
     "python.linting.flake8Path": "/home/xli/.pyenv/shims/flake8",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "debug.console.lineHeight": 20,
-    "editor.minimap.enabled": false,
     "workbench.iconTheme": "vscode-icons",
     "workbench.colorCustomizations": {
         "editor.background": "#00000033",
@@ -319,6 +318,14 @@
                     "fontStyle": "bold italic"
                 }
             },
+            {
+                "scope": "support.function.builtin.python",
+                "settings": {
+                    "foreground": "#82aaffcc",
+                    // "foreground": "#c792eacc",
+                    "fontStyle": "",
+                },
+            },
 
 
             {
@@ -428,6 +435,7 @@
             },
         ],
     },
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
     "python.dataScience.colorizeInputBox": false,
+    "editor.minimap.enabled": false,
 }
