@@ -69,14 +69,13 @@
                 "scope": "keyword",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             {
                 "scope": "keyword.control.flow.python",
                 "settings": {
                     "foreground": "#c792eacc",
-                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -84,7 +83,6 @@
                 "scope": "keyword.control.import.python",
                 "settings": {
                     "foreground": "#c792eacc",
-                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -92,21 +90,20 @@
                 "scope": "keyword.operator.assignment.python",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             {
                 "scope": "keyword.operator.arithmetic.python",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             {
                 "scope": "keyword.operator.logical.python",
                 "settings": {
                     "foreground": "#c792eacc",
-                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -114,7 +111,6 @@
                 "scope": "keyword.codetag.notation.python",
                 "settings": {
                     "foreground": "#c792eacc",
-                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -126,70 +122,70 @@
                 "scope": "punctuation",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             {
                 "scope": "punctuation.definition.inheritance.begin.python",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             {
                 "scope": "punctuation.definition.inheritance.end.python",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             {
                 "scope": "punctuation.section.class.begin.python",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             {
                 "scope": "punctuation.separator.period.python",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             {
                 "scope": "punctuation.definition.arguments.begin.python",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             {
                 "scope": "punctuation.definition.arguments.end.python",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             {
                 "scope": "punctuation.definition.string.begin.python",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             {
                 "scope": "punctuation.definition.string.end.python",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             {
                 "scope": "punctuation.definition.comment.python",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             // punctuation ends
@@ -200,7 +196,6 @@
                 "scope": "meta.class.python",
                 "settings": {
                     "foreground": "#c792eacc",
-                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -208,14 +203,13 @@
                 "scope": "meta.class.inheritance.python",
                 "settings": {
                     "foreground": "#89ddffcc",
-                    "fontStyle": "",
+                    "fontStyle": "bold",
                 }
             },
             {
                 "scope": "meta.function-call.python",
                 "settings": {
                     "foreground": "#82aaffcc",
-                    // "foreground": "#c792eacc",
                     "fontStyle": "",
                 }
             },
@@ -223,7 +217,6 @@
                 "scope": "meta.function-call.generic.python",
                 "settings": {
                     "foreground": "#82aaffcc",
-                    // "foreground": "#c792eacc",
                     "fontStyle": "",
                 }
             },
@@ -263,7 +256,6 @@
                 "scope": "entity.name.function.python",
                 "settings": {
                     "foreground": "#82aaffcc",
-                    // "foreground": "#c792eacc",
                     "fontStyle": "",
                 },
             },
@@ -274,7 +266,6 @@
                 "scope": "storage.type.class.python",
                 "settings": {
                     "foreground": "#c792eacc",
-                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -282,7 +273,6 @@
                 "scope": "storage.type.function.python",
                 "settings": {
                     "foreground": "#c792eacc",
-                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -290,7 +280,6 @@
                 "scope": "storage.type.function.lambda.python",
                 "settings": {
                     "foreground": "#c792eacc",
-                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
@@ -298,7 +287,6 @@
                 "scope": "storage.type.string.python",
                 "settings": {
                     "foreground": "#c792eacc",
-                    // "foreground": "#82aaffcc",
                     "fontStyle": "",
                 },
             },
@@ -322,7 +310,6 @@
                 "scope": "support.function.builtin.python",
                 "settings": {
                     "foreground": "#82aaffcc",
-                    // "foreground": "#c792eacc",
                     "fontStyle": "",
                 },
             },
@@ -376,7 +363,6 @@
                 "scope": "constant.language.python",
                 "settings": {
                     "foreground": "#c792eacc",
-                    // "foreground": "#82aaffcc",
                     "fontStyle": "bold italic",
                 }
             },
