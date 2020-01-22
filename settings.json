@@ -313,6 +313,13 @@
                     "fontStyle": "",
                 },
             },
+            {
+                "scope": "support.type.exception.python",
+                "settings": {
+                    "foreground": "#ffcb6bcc",
+                    "fontStyle": "",
+                }
+            },
 
 
             {
