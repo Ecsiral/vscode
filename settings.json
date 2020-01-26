@@ -45,6 +45,7 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "debug.console.lineHeight": 20,
     "workbench.iconTheme": "vscode-icons",
+    "editor.scrollBeyondLastLine": false,
     "workbench.colorCustomizations": {
         "editor.background": "#00000033",
         "editor.foreground": "#ffffffcc",
@@ -66,7 +67,7 @@
 
             // keyword starts
             {
-                "scope": "keyword",
+                "scope": "keyword.python",
                 "settings": {
                     "foreground": "#89ddffcc",
                     "fontStyle": "bold",
@@ -119,7 +120,7 @@
 
             // punctuation starts
             {
-                "scope": "punctuation",
+                "scope": "punctuation.python",
                 "settings": {
                     "foreground": "#89ddffcc",
                     "fontStyle": "bold",
@@ -234,6 +235,13 @@
                     "fontStyle": "",
                 }
             },
+            {
+                "scope": "meta.function.decorator.python",
+                "settings": {
+                    "foreground": "#82aaffcc",
+                    "fontStyle": "",
+                }
+            },
             // meta ends
 
 
@@ -293,11 +301,11 @@
 
 
             {
-                "scope": "support.type.python",
+                "scope": "support.type",
                 "settings": {
-                    "foreground": "#ffcb6bcc",
+                    "foreground": "#82aaffcc",
                     "fontStyle": "",
-                }
+                },
             },
             {
                 "scope": "support.variable.magic.python",
@@ -431,4 +439,7 @@
     "workbench.colorTheme": "Community Material Theme Darker High Contrast",
     "python.dataScience.colorizeInputBox": false,
     "editor.minimap.enabled": false,
+    "workbench.editor.showTabs": false,
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "search.collapseResults": "alwaysCollapse",
 }
