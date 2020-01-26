@@ -301,7 +301,7 @@
 
 
             {
-                "scope": "support.type",
+                "scope": "support.type.python",
                 "settings": {
                     "foreground": "#82aaffcc",
                     "fontStyle": "",
