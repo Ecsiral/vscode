@@ -232,24 +232,10 @@
             "variables": "#E0E0E0",
             "textMateRules": [
                 {
-                    "scope": "variable.parameter.function.language.special.self.python, variable.language.special.self.python, variable.parameter.function.language.special.cls.python, variable.language.special.cls.python, variable.language.this.ts",
-                    "settings": {
-                        "foreground": "#E53935",
-                        "fontStyle": ""
-                    }
-                },
-                {
                     "scope": "keyword, storage.type.class.python, storage.type.function.python, keyword.operator.logical.python, constant.character.format.placeholder.other.python, storage.type.js, keyword.operator.js, keyword.operator.new.js, storage.modifier.async.ts, keyword.operator.new.ts",
                     "settings": {
                         "foreground": "#CE93D8",
                         "fontStyle": "italic"
-                    }
-                },
-                {
-                    "scope": "entity.other.inherited-class.python, support.variable.ts",
-                    "settings": {
-                        "foreground": "#FFE082",
-                        "fontStyle": ""
                     }
                 },
                 {
@@ -267,13 +253,6 @@
                     }
                 },
                 {
-                    "scope": "meta.function-call.generic.python",
-                    "settings": {
-                        "foreground": "#42A5F5",
-                        "fontStyle": ""
-                    }
-                },
-                {
                     "scope": "support.type.property-name.json.comments, variable.other.constant.object.js, variable.other.readwrite.js, variable.other.constant.ts, variable.other.constant, variable.other.enummember, support.variable.property, entity.name.namespace",
                     "settings": {
                         "foreground": "#E0E0E0",
@@ -288,6 +267,22 @@
                     }
                 }
             ]
+        }
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[Default Dark+]": { // Apply to this theme only
+            "enabled": true,
+            "rules": {
+                "selfParameter:python": "#E53935",
+                "clsParameter:python": "#E53935",
+                "class:python":"#FFE082",
+                "enum:python":"#FFE082",
+                "enumMember:python": "#FFE082",
+                "builtin:python": "#42A5F5",
+                "magicFunction:python": "#42A5F5",
+                "function:python": "#42A5F5",
+                "*.decorator:python": "#42A5F5",
+            }
         }
     },
     "editor.wordWrap": "wordWrapColumn",
@@ -310,7 +305,6 @@
     "python.linting.enabled": false,
     "python.languageServer": "Pylance",
     "workbench.iconTheme": "vscode-icons",
-    "json.schemas": [
-    
-    ],
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.logLevel": "Error",
 }
