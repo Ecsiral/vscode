@@ -1,59 +1,59 @@
 {
-    "editor.fontFamily": "Operator Mono",
+    "editor.fontFamily": "Rec Mono Casual",
     "editor.renderWhitespace": "all",
-    "editor.fontSize": 15,
-    "editor.lineHeight": 20,
-    "editor.fontWeight": "100",
+    "editor.renderLineHighlight": "all",
     "editor.rulers": [
-        80
+        79
     ],
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.guides.highlightActiveIndentation": "always",
+    "editor.scrollbar.vertical": "visible",
+    "editor.scrollbar.horizontal": "hidden",
     "workbench.colorCustomizations": {
         "badge.background": "#F4511E",
         "badge.foreground": "#E0E0E0",
         "editor.background": "#263238",
         "editor.foreground": "#E0E0E0",
-        "editor.findMatchBackground": "#546E7A75",
-        "editor.findMatchBorder": "#F4511E",
-        "editor.findMatchHighlightBackground": "#546E7A75",
+        "editor.findMatchBackground": "#F4511E",
+        "editor.findMatchHighlightBackground": "#263238",
         "editor.findMatchHighlightBorder": "#F4511E",
-        "editor.findRangeHighlightBackground": "#546E7A75",
+        "editor.findRangeHighlightBackground": "#263238",
         "editor.findRangeHighlightBorder": "#F4511E",
-        "editor.focusedStackFrameHighlightBackground": "#546E7A75",
-        "editor.foldBackground": "#263238",
-        "editor.hoverHighlightBackground": "#546E7A50",
-        "editor.inactiveSelectionBackground": "#546E7A75",
+        "editor.hoverHighlightBackground": "#546E7A25",
+        "editor.inactiveSelectionBackground": "#263238",
         "editor.lineHighlightBackground": "#546E7A75",
-        "editor.lineHighlightBorder": "#F4511E",
         "editor.rangeHighlightBackground": "#546E7A75",
-        "editor.rangeHighlightBorder": "#F4511E",
         "editor.selectionBackground": "#546E7A75",
-        "editor.selectionForeground": "#E0E0E0",
-        "editor.selectionHighlightBackground": "#546E7A75",
+        "editor.selectionHighlightBackground": "#263238",
         "editor.selectionHighlightBorder": "#F4511E",
         "editor.snippetFinalTabstopHighlightBackground": "#546E7A75",
-        "editor.snippetFinalTabstopHighlightBorder": "#F4511E",
         "editor.snippetTabstopHighlightBackground": "#546E7A75",
-        "editor.snippetTabstopHighlightBorder": "#F4511E",
+        "editor.focusedStackFrameHighlightBackground": "#546E7A75",
         "editor.stackFrameHighlightBackground": "#546E7A75",
-        "editor.symbolHighlightBackground": "#546E7A75",
+        "editor.symbolHighlightBackground": "#263238",
         "editor.symbolHighlightBorder": "#F4511E",
-        "editor.wordHighlightBackground": "#546E7A75",
+        "editor.wordHighlightBackground": "#263238",
         "editor.wordHighlightBorder": "#F4511E",
         "editor.wordHighlightStrongBackground": "#546E7A75",
-        "editor.wordHighlightStrongBorder": "#F4511E",
-        "editorBracketMatch.background": "#546E7A75",
-        "editorBracketMatch.border": "#F4511E",
-        "editorCursor.background": "#546E7A75",
+        "editor.wordHighlightTextBackground": "#263238",
+        "editor.wordHighlightTextBorder": "#F4511E",
+        "editorBracketMatch.background": "#546E7A25",
+        "editorBracketMatch.border": "#546E7A75",
+        "editorCursor.background": "#F4511E",
         "editorCursor.foreground": "#F4511E",
-        "editorLineNumber.activeForeground": "#E0E0E0",
+        "editorLineNumber.activeForeground": "#F4511E",
         "editorLineNumber.foreground": "#757575",
         "editorGutter.background": "#263238",
-        "editorGutter.addedBackground": "#FDD835",
-        "editorGutter.modifiedBackground": "#F4511E",
-        "editorGutter.deletedBackground": "#E53935",
-        "editorGutter.commentRangeForeground": "#757575",
-        "editorGutter.foldingControlForeground": "#E0E0E0",
-        "editorRuler.foreground": "#546E7A75",
+        "editorGutter.commentGlyphForground": "#757575",
+        "editorGutter.addedBackground": "#FFE57F",
+        "editorGutter.modifiedBackground": "#448AFF",
+        "editorGutter.deletedBackground": "#FF1744",
+        "editorGutter.commentRangeForeground": "#B2FF59",
+        "editorGutter.foldingControlForeground": "#EA80FC",
+        "editorRuler.foreground": "#F4511E",
         "editorGroupHeader.border": "#546E7A75",
         "editorGroupHeader.noTabsBackground": "#263238",
         "editorGroupHeader.tabsBackground": "#263238",
@@ -62,8 +62,8 @@
         "editorHoverWidget.foreground": "#E0E0E0",
         "editorHoverWidget.statusBarBackground": "#546E7A50",
         "editorPane.background": "#263238",
-        "tab.activeBorderTop": "#FDD835",
-        "tab.activeModifiedBorder": "#F4511E",
+        "tab.activeBorderTop": "#F4511E",
+        "tab.activeModifiedBorder": "#FFE57F",
         "tab.activeBackground": "#546E7A75",
         "tab.activeBorder": "#263238",
         "tab.activeForeground": "#E0E0E0",
@@ -118,16 +118,16 @@
         "statusBar.foreground": "#E0E0E0",
         "statusBarItem.hoverBackground": "#546E7A50",
         "minimap.background": "#263238",
-        "minimap.errorHighlight": "#F4511E",
-        "minimap.findMatchHighlight": "#546E7A75",
-        "minimap.selectionHighlight": "#546E7A75",
-        "minimap.warningHighlight": "#F48FB1",
-        "minimapGutter.addedBackground": "#263238",
-        "minimapGutter.deletedBackground": "#263238",
-        "minimapGutter.modifiedBackground": "#263238",
+        "minimap.errorHighlight": "#FF1744",
+        "minimap.findMatchHighlight": "#F4511E",
+        "minimap.selectionHighlight": "#F4511E",
+        "minimap.warningHighlight": "#FF80AB",
+        "minimapGutter.addedBackground": "#FFE57F",
+        "minimapGutter.deletedBackground": "#FF1744",
+        "minimapGutter.modifiedBackground": "#448AFF",
         "minimapSlider.activeBackground": "#546E7A75",
         "minimapSlider.background": "#546E7A50",
-        "minimapSlider.hoverBackground": "#546E7A75",
+        "minimapSlider.hoverBackground": "#546E7A50",
         "menu.background": "#546E7A75",
         "menu.border": "#263238",
         "menu.foreground": "#E0E0E0",
@@ -139,8 +139,8 @@
         "menubar.selectionBorder": "#F4511E",
         "menubar.selectionForeground": "#757575",
         "activityBar.activeBackground": "#546E7A75",
-        "activityBar.activeBorder": "#FDD835",
-        "activityBar.border": "#546E7A75",
+        "activityBar.activeBorder": "#F4511E",
+        // "activityBar.border": "#546E7A75",
         "activityBar.activeFocusBorder": "#F4511E",
         "activityBar.background": "#263238",
         "activityBar.foreground": "#E0E0E0",
@@ -228,51 +228,80 @@
             "variables": "#E0E0E0",
             "textMateRules": [
                 {
-                    "scope": "keyword, storage.type.class.python, storage.type.function.python, keyword.operator.logical.python, constant.character.format.placeholder.other.python, storage.type.js, keyword.operator.js, keyword.operator.new.js, storage.modifier.async.ts, keyword.operator.new.ts",
+                    "scope": "keyword, storage.type.class.python, storage.type.function.python, keyword.operator.logical.python, storage.type.js, keyword.operator.js, keyword.operator.new.js, storage.modifier.async.ts, keyword.operator.new.ts, storage.type.function.lambda.python, entity.name.tag.namespace.xml, entity.name.tag.localname.xml, entity.name.tag.xml, entity.name.tag.html, entity.name.tag.css",
                     "settings": {
                         "foreground": "#CE93D8",
                         "fontStyle": "italic",
                     }
                 },
                 {
-                    "scope": "punctuation.section.class.begin.python, punctuation.definition.inheritance.begin.python, punctuation.definition.inheritance.end.python, keyword.operator.assignment.python, punctuation.definition.string.begin.python, punctuation.definition.string.end.python, punctuation.separator.parameters.python, punctuation.separator.arguments.python, keyword.operator.python, punctuation.separator.period.python, punctuation.section.function.begin.python, punctuation.separator.continuation.line.python, punctuation.parenthesis.begin.python, punctuation.parenthesis.end.python, punctuation.definition.decorator.python, punctuation.separator.colon.python, punctuation.definition.arguments.begin.python, punctuation.definition.arguments.end.python, punctuation.definition.parameters.begin.python, punctuation.definition.parameters.end.python, punctuation.definition.dict.begin.python, punctuation.definition.dict.end.python, punctuation.separator.dict.python, keyword.operator.comparison.python, keyword.operator.unpacking.parameter.python, punctuation.definition.list.begin.python, punctuation.definition.list.end.python, keyword.operator.unpacking.arguments.python, keyword.operator.arithmetic.python, punctuation.definition.comment.python, punctuation.support.type.property-name.begin.json.comments, punctuation.support.type.property-name.end.json.comments, punctuation.separator.dictionary.pair.json.comments, punctuation.definition.string.begin.json.comments, punctuation.definition.string.end.json.comments, punctuation.separator.dictionary.key-value.json.comments, punctuation.definition.dictionary.begin.json.comments, punctuation.definition.dictionary.end.json.comments, punctuation.definition.array.begin.json.comments, punctuation.definition.array.end.json.comments, keyword.operator.assignment.js, meta.brace.curly.js, punctuation.definition.string.begin.js, punctuation.definition.string.end.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, storage.type.function.arrow.js, meta.brace.round.js, meta.delimiter.comma.js, keyword.operator.accessor.js, punctuation.quasi.element.begin.js, punctuation.quasi.element.end.js, punctuation.definition.quasi.begin.js, punctuation.definition.quasi.end.js, punctuation.terminator.statement.js, meta.group.braces.round, keyword.operator.spread.js, meta.function.arrow.js, keyword.operator.ternary.js, meta.function-call.with-arguments.js, keyword.operator.logical.js, keyword.operator.relational.js, punctuation.definition.string.begin.ts, punctuation.definition.string.end.ts, punctuation.definition.block.ts, constant.language.import-export-all.ts, punctuation.separator.comma.ts, keyword.operator.assignment.ts, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts, keyword.operator.type.annotation.ts, punctuation.separator.parameter.ts, meta.brace.square.ts, punctuation.definition.typeparameters.begin.ts, punctuation.definition.typeparameters.end.ts, punctuation.accessor.ts, meta.brace.round.ts, punctuation.definition.string.template.begin.ts, punctuation.definition.string.template.end.ts, keyword.operator.logical.ts, punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts, punctuation.terminator.statement.ts, keyword.control.anchor.regexp, constant.other.character-class.regexp, punctuation.definition.group.regexp, keyword.operator.quantifier.regexp",
+                    "scope": "punctuation.section.class.begin.python, punctuation.definition.inheritance.begin.python, punctuation.definition.inheritance.end.python, keyword.operator.assignment.python, punctuation.definition.string.begin.python, punctuation.definition.string.end.python, punctuation.separator.parameters.python, punctuation.separator.arguments.python, punctuation.separator.element.python, keyword.operator.python, punctuation.separator.period.python, punctuation.section.function.begin.python, punctuation.separator.continuation.line.python, punctuation.parenthesis.begin.python, punctuation.parenthesis.end.python, punctuation.definition.decorator.python, punctuation.separator.colon.python, punctuation.definition.arguments.begin.python, punctuation.definition.arguments.end.python, punctuation.definition.parameters.begin.python, punctuation.definition.parameters.end.python, punctuation.definition.dict.begin.python, punctuation.definition.dict.end.python, punctuation.separator.dict.python, keyword.operator.comparison.python, keyword.operator.unpacking.parameter.python, punctuation.definition.list.begin.python, punctuation.definition.list.end.python, keyword.operator.unpacking.arguments.python, keyword.operator.arithmetic.python, punctuation.definition.comment.python, punctuation.support.type.property-name.begin.json.comments, punctuation.support.type.property-name.end.json.comments, punctuation.separator.dictionary.pair.json.comments, punctuation.definition.string.begin.json.comments, punctuation.definition.string.end.json.comments, punctuation.separator.dictionary.key-value.json.comments, punctuation.definition.dictionary.begin.json.comments, punctuation.definition.dictionary.end.json.comments, punctuation.definition.array.begin.json.comments, punctuation.definition.array.end.json.comments, keyword.operator.assignment.js, meta.brace.curly.js, punctuation.definition.string.begin.js, punctuation.definition.string.end.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, storage.type.function.arrow.js, meta.brace.round.js, meta.delimiter.comma.js, keyword.operator.accessor.js, punctuation.quasi.element.begin.js, punctuation.quasi.element.end.js, punctuation.definition.quasi.begin.js, punctuation.definition.quasi.end.js, punctuation.terminator.statement.js, meta.group.braces.round, keyword.operator.spread.js, meta.function.arrow.js, keyword.operator.ternary.js, meta.function-call.with-arguments.js, keyword.operator.logical.js, keyword.operator.relational.js, punctuation.definition.string.begin.ts, punctuation.definition.string.end.ts, punctuation.definition.block.ts, constant.language.import-export-all.ts, punctuation.separator.comma.ts, keyword.operator.assignment.ts, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts, keyword.operator.type.annotation.ts, punctuation.separator.parameter.ts, meta.brace.square.ts, punctuation.definition.typeparameters.begin.ts, punctuation.definition.typeparameters.end.ts, punctuation.accessor.ts, meta.brace.round.ts, punctuation.definition.string.template.begin.ts, punctuation.definition.string.template.end.ts, keyword.operator.logical.ts, punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts, punctuation.terminator.statement.ts meta.function.lambda.parameters.python, punctuation.definition.tag.xml, punctuation.separator.namespace.xml, meta.tag.xml, punctuation.definition.string.begin.xml, punctuation.definition.string.end.xml, punctuation.definition.tag.xml, meta.tag.preprocessor.xml, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.separator.key-value.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html, punctuation.accessor.js, meta.brace.square.js, punctuation.definition.entity.css, keyword.operator.combinator.css, punctuation.section.property-list.begin.bracket.curly.css, punctuation.section.property-list.end.bracket.curly.css, punctuation.separator.key-value.css, punctuation.terminator.rule.css, keyword.other.unit.percentage.css, punctuation.section.function.begin.bracket.round.css, punctuation.section.function.end.bracket.round.css, punctuation.separator.list.comma.css, punctuation.definition.constant.css, punctuation.definition.block.js, punctuation.separator.comma.js, punctuation.definition.binding-pattern.object.js, keyword.operator.arithmetic.js, keyword.operator.decrement.js, keyword.operator.comparison.js, punctuation.section.function.lambda.begin.python",
                     "settings": {
                         "foreground": "#80DEEA",
                         "fontStyle": ""
                     }
                 },
                 {
-                    "scope": "constant.numeric.dec.python, constant.numeric.float.python, constant.language.python, constant.language.json.comments, constant.numeric.json.comments, constant.numeric.js, constant.language.boolean.true.js, constant.language.null.js",
+                    "scope": "constant.numeric.dec.python, constant.numeric.float.python, constant.language.python, constant.language.json.comments, constant.numeric.json.comments, constant.numeric.js, constant.language.boolean.true.js, constant.language.null.js, constant.character.escape.python, constant.character.format.placeholder.other.python, storage.type.format.python, entity.other.attribute-name.namespace.xml, entity.other.attribute-name.localname.xml, entity.other.attribute-name.xml, support.constant.property-value.css, constant.language.boolean.false.js, support.constant.font-name.css",
                     "settings": {
                         "foreground": "#FFA726",
-                        "fontStyle": ""
+                        "fontStyle": "underline"
                     }
                 },
                 {
-                    "scope": "constant.other.caps.python",
-                    "settings": {
-                        // "foreground": "#F48FB1",
-                        "fontStyle": "underline",
-                    }
-                },
-                {
-                    "scope": "support.type.property-name.json.comments, variable.other.constant.object.js, variable.other.readwrite.js, variable.other.constant.ts, variable.other.constant, variable.other.enummember, support.variable.property, entity.name.namespace, meta.attribute.python, punctuation.separator.parameters.python",
+                    "scope": "support.type.property-name.json.comments, variable.other.constant.object.js, variable.other.readwrite.js, variable.other.constant.ts, variable.other.constant, variable.other.enummember, support.variable.property, entity.name.namespace, meta.attribute.python, meta.function-call.arguments.python, variable.other.object.js, support.variable, text.html.derivative, support.type.property-name.css, variable.other.property.js",
                     "settings": {
                         "foreground": "#E0E0E0",
                         "fontStyle": ""
                     }
                 },
                 {
-                    "scope": "string.regexp.ts, constant.character.escape.backslash.regexp",
+                    "scope": "constant.other.caps.python, variable.other.constant, entity.other.attribute-name.html, entity.other.attribute-name.id.css",
+                    "settings": {
+                        // "foreground": "#F48FB1",
+                        "foreground": "#E0E0E0",
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "scope": "support.function.magic.python, support.variable.magic.python, meta.embedded, keyword.other.unit.px.css, constant.other.color.rgb-value.hex.css, support.constant.color.w3c-standard-color-name.css, support.other.match.begin.regexp, support.other.match.end.regexp, keyword.operator.negation.regexp, constant.character.escape.regexp, support.other.escape.special.regexp, punctuation.parenthesis.begin.regexp, punctuation.parenthesis.end.regexp, keyword.operator.quantifier.regexp, punctuation.character.set.begin.regexp, punctuation.character.set.end.regexp, constant.other.set.regexp, constant.character.set.regexp, keyword.control.anchor.regexp, constant.other.character-class.regexp, punctuation.definition.group.regexp,",
+                    "settings": {
+                        "foreground": "#F48FB1",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "string.regexp.ts, constant.character.escape.backslash.regexp, string.quoted.double.xml, string.regexp.quoted.single.python, string.quoted.double.html",
                     "settings": {
                         "foreground": "#AED581",
                         "fontStyle": ""
                     }
                 },
                 {
-                    "scope": "meta.function-call.python",
+                    "scope": "meta.function-call.python, support.function.builtin.python, entity.name.function.js",
                     "settings": {
                         "foreground": "#42A5F5",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "variable.parameter.function.language.special.self.python, variable.parameter.function.language.special.cls.python, variable.language.this.js",
+                    "settings": {
+                        "foreground": "#E53935",
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "scope": "other, invalid.deprecated.entity.other.attribute-name.html",
+                    "settings": {
+                        "foreground": "#E53935",
+                        "fontStyle": "strikethrough"
+                    }
+                },
+                {
+                    "scope": "entity.other.attribute-name.class.css, entity.other.inherited-class.python",
+                    "settings": {
+                        "foreground": "#FFE082",
                         "fontStyle": ""
                     }
                 }
@@ -281,17 +310,16 @@
     },
     "editor.semanticTokenColorCustomizations": {
         "[Default Dark+]": { // Apply to this theme only
-            "enabled": true,
             "rules": {
-                "selfParameter:python": "#E53935",
-                "clsParameter:python": "#E53935",
-                "class:python": "#FFE082",
-                "enum:python": "#FFE082",
-                "enumMember:python": "#F48FB1",
                 "builtin:python": "#42A5F5",
-                "magicFunction:python": "#42A5F5",
+                "class:python": "#FFE082",
+                "clsParameter:python": "#E53935",
+                "enum:python": "#FFE082",
                 "function:python": "#42A5F5",
+                "selfParameter:python": "#E53935",
                 "*.decorator:python": "#42A5F5",
+                "operator:python": "#80DEEA",
+                "keyword": "#CE93D8"
             }
         }
     },
@@ -301,19 +329,11 @@
     "editor.scrollBeyondLastLine": false,
     "workbench.iconTheme": "vscode-icons",
     "files.trimTrailingWhitespace": true,
-    "python.analysis.indexing": true,
     "python.languageServer": "Pylance",
     "security.workspace.trust.untrustedFiles": "open",
-    "markdown.preview.lineHeight": 1.2,
-    "markdown.preview.fontSize": 15,
-    "markdown.preview.fontFamily": "monofur for Powerline",
-    "terminal.integrated.fontFamily": "monofur for Powerline",
-    "terminal.integrated.lineHeight": 1.2,
+    "markdown.preview.fontFamily": "Courier Prime",
     "vsicons.dontShowNewVersionMessage": true,
-    "python.analysis.autoImportCompletions": false,
-    "python.analysis.autoSearchPaths": false,
     "python.analysis.extraCommitChars": false,
-    "python.analysis.useLibraryCodeForTypes": false,
     "editor.tabCompletion": "on",
     "workbench.editor.enablePreview": false,
     "workbench.tips.enabled": false,
@@ -328,8 +348,6 @@
     "gitlens.showWhatsNewAfterUpgrades": false,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.virtualRepositories.enabled": false,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.currentLine.pullRequests.enabled": false,
     "gitlens.currentLine.scrollable": false,
     "gitlens.hovers.enabled": false,
     "gitlens.hovers.avatars": false,
@@ -343,10 +361,7 @@
     "gitlens.hovers.annotations.details": false,
     "gitlens.hovers.annotations.changes": false,
     "window.commandCenter": true,
-    "breadcrumbs.enabled": false,
     "editor.stickyScroll.enabled": true,
-    "python.linting.pycodestyleEnabled": true,
-    "python.analysis.diagnosticMode": "workspace",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "html.format.wrapLineLength": 80,
@@ -357,27 +372,97 @@
     "githubPullRequests.pullBranch": "never",
     "extensions.ignoreRecommendations": true,
     "explorer.confirmDelete": false,
-    "scm.inputFontSize": 15,
     "redhat.telemetry.enabled": true,
-    "terminal.integrated.fontSize": 15,
-    "window.autoDetectHighContrast": false,
     "explorer.openEditors.visible": 5,
     "window.title": "${activeEditorMedium}${separator}${rootName}",
-    "editor.wordWrap": "wordWrapColumn",
     "projectManager.tags": [
         "mac",
         "ec2"
     ],
-    "editor.largeFileOptimizations": false,
-    "editor.minimap.scale": 3,
-    "workbench.sideBar.location": "right",
-    "notebook.outputLineHeight": 20,
-    "debug.console.fontSize": 15,
-    "notebook.markup.fontSize": 15,
     "git.openRepositoryInParentFolders": "always",
     "[python]": {
         "editor.formatOnType": true
     },
-    "editor.fontLigatures": true,
+    "editor.fontLigatures": false,
+    "breadcrumbs.enabled": false,
+    "python.testing.autoTestDiscoverOnSaveEnabled": false,
+    "search.searchEditor.reusePriorSearchConfiguration": true,
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "workbench.sideBar.location": "right",
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "python.linting.pylintArgs": [
+        "--rcfile=/home/xli/ContextLogic/org_bxe_pricing/tools/pylint/.pylintrc"
+    ],
+    "python.experiments.enabled": false,
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "master"
+    ],
+    "terminal.integrated.lineHeight": 1.5,
+    "markdown.preview.lineHeight": 1.5,
+    "explorer.confirmDragAndDrop": false,
+    "editor.wrappingIndent": "deepIndent",
+    "editor.indentSize": "tabSize",
+    "editor.formatOnType": true,
+    "pylint.args": [
+        "--rcfile=/home/xli/ContextLogic/org_bxe_pricing/tools/pylint/.pylintrc"
+    ],
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "screencastMode.fontSize": 20,
+    "editor.minimap.scale": 3,
+    "editor.lineHeight": 1.5,
+    "workbench.colorTheme": "Default Dark+",
+    "editor.wordWrap": "wordWrapColumn",
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.plusFeatures.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.currentLine.pullRequests.enabled": false,
     "editor.bracketPairColorization.enabled": false,
+    "remote.SSH.useExecServer": false,
+    "editor.minimap.showSlider": "always",
+    "editor.scrollbar.horizontalScrollbarSize": 10,
+    "pylint.interpreter": [
+        "/Users/xli/.pyenv/shims/python"
+    ],
+    "pylint.path": [
+        "/Users/xli/.pyenv/shims/pylint"
+    ],
+    "python.analysis.enablePytestSupport": false,
+    "python.analysis.autoSearchPaths": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "workbench.editor.revealIfOpen": true,
+    "debug.console.fontSize": 13,
+    "chat.editor.fontSize": 13,
+    "terminal.integrated.fontSize": 15,
+    "editor.fontSize": 13,
+    "markdown.preview.fontSize": 13,
+    "editor.minimap.autohide": true,
 }
