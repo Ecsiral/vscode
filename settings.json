@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "Rec Mono Casual",
+    "editor.fontFamily": "Monaspace Radon",
     "editor.renderWhitespace": "all",
     "editor.renderLineHighlight": "all",
     "editor.rulers": [
@@ -331,7 +331,7 @@
     "files.trimTrailingWhitespace": true,
     "python.languageServer": "Pylance",
     "security.workspace.trust.untrustedFiles": "open",
-    "markdown.preview.fontFamily": "Courier Prime",
+    "markdown.preview.fontFamily": "Monaspace Xenon",
     "vsicons.dontShowNewVersionMessage": true,
     "python.analysis.extraCommitChars": false,
     "editor.tabCompletion": "on",
@@ -390,9 +390,6 @@
     "editor.renderLineHighlightOnlyWhenFocus": true,
     "workbench.sideBar.location": "right",
     "editor.formatOnSaveMode": "modificationsIfAvailable",
-    "python.linting.pylintArgs": [
-        "--rcfile=/home/xli/ContextLogic/org_bxe_pricing/tools/pylint/.pylintrc"
-    ],
     "python.experiments.enabled": false,
     "githubPullRequests.ignoredPullRequestBranches": [
         "master"
@@ -461,8 +458,9 @@
     "workbench.editor.revealIfOpen": true,
     "debug.console.fontSize": 13,
     "chat.editor.fontSize": 13,
-    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontSize": 13,
     "editor.fontSize": 13,
     "markdown.preview.fontSize": 13,
     "editor.minimap.autohide": true,
+    "terminal.integrated.fontFamily": "Monaspace Xenon",
 }
