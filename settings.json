@@ -383,14 +383,13 @@
     "[python]": {
         "editor.formatOnType": true
     },
-    "editor.fontLigatures": false,
+    "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03'",
     "breadcrumbs.enabled": false,
     "python.testing.autoTestDiscoverOnSaveEnabled": false,
     "search.searchEditor.reusePriorSearchConfiguration": true,
     "editor.renderLineHighlightOnlyWhenFocus": true,
     "workbench.sideBar.location": "right",
     "editor.formatOnSaveMode": "modificationsIfAvailable",
-    "python.experiments.enabled": false,
     "githubPullRequests.ignoredPullRequestBranches": [
         "master"
     ],
